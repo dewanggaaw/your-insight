@@ -8,17 +8,27 @@ export default function Login() {
   return (
     <View style={{backgroundColor: '#baf5e5', flex: 1}}>
       <View style={LoginStyle.firstBubble} />
-      <View
+      <View style={LoginStyle.secondBuble} />
+      <Text
         style={{
-          backgroundColor: '#61edc8',
-          width: moderateScale(300),
-          height: moderateScale(300),
-          borderRadius: 200,
-          position: 'absolute',
-          marginTop: moderateScale(-140),
-          marginLeft: moderateScale(170),
-        }}
-      />
+          fontFamily: 'DancingScript-Bold',
+          fontSize: moderateScale(50),
+          marginTop: moderateScale(160),
+          marginLeft: moderateScale(85),
+          color: 'gray',
+        }}>
+        Your
+      </Text>
+      <Text
+        style={{
+          fontFamily: 'DancingScript-Bold',
+          fontSize: moderateScale(50),
+          marginLeft: moderateScale(145),
+          marginTop: moderateScale(-15),
+          color: 'gray',
+        }}>
+        Insight
+      </Text>
       <View
         style={{
           backgroundColor: 'whitesmoke',
@@ -28,7 +38,7 @@ export default function Login() {
           padding: moderateScale(15),
           alignItems: 'center',
           alignSelf: 'center',
-          marginTop: moderateScale(300),
+          marginTop: moderateScale(30),
         }}>
         <View
           style={{

@@ -11,4 +11,13 @@ export const LoginStyle = StyleSheet.create({
     marginTop: moderateScale(-100),
     marginLeft: moderateScale(-40),
   },
+  secondBuble: {
+    backgroundColor: '#61edc8',
+    width: moderateScale(300),
+    height: moderateScale(300),
+    borderRadius: 200,
+    position: 'absolute',
+    marginTop: moderateScale(-140),
+    marginLeft: moderateScale(170),
+  },
 });

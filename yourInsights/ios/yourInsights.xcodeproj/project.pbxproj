@@ -28,6 +28,10 @@
 		781803F5FDBD4B7C9DCF3060 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97C26D3F128A4D2E846D276C /* Octicons.ttf */; };
 		1B88317518C14DF0974937A2 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E231B0A49FA43A78308F9D6 /* SimpleLineIcons.ttf */; };
 		3D86D887A7EF47B6B1CEAC46 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A260F205B9846B883ACA574 /* Zocial.ttf */; };
+		D30B2D44B6C8461183D34BCC /* DancingScript-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02FCF3B60E004244BC501B4C /* DancingScript-Bold.ttf */; };
+		D6C1794BEAE3435BBF3C0A0A /* DancingScript-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D59C42477A043CA96B7B4E4 /* DancingScript-Medium.ttf */; };
+		654E29885F334BC6A18F6DCF /* DancingScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F12C816EC788435288C82812 /* DancingScript-Regular.ttf */; };
+		B257A2A914A74103BF0094DB /* DancingScript-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78B1827FCC514792B75A7D60 /* DancingScript-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +72,10 @@
 		97C26D3F128A4D2E846D276C /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		7E231B0A49FA43A78308F9D6 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		4A260F205B9846B883ACA574 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		02FCF3B60E004244BC501B4C /* DancingScript-Bold.ttf */ = {isa = PBXFileReference; name = "DancingScript-Bold.ttf"; path = "../src/Assets/Fonts/DancingScript-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7D59C42477A043CA96B7B4E4 /* DancingScript-Medium.ttf */ = {isa = PBXFileReference; name = "DancingScript-Medium.ttf"; path = "../src/Assets/Fonts/DancingScript-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F12C816EC788435288C82812 /* DancingScript-Regular.ttf */ = {isa = PBXFileReference; name = "DancingScript-Regular.ttf"; path = "../src/Assets/Fonts/DancingScript-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		78B1827FCC514792B75A7D60 /* DancingScript-SemiBold.ttf */ = {isa = PBXFileReference; name = "DancingScript-SemiBold.ttf"; path = "../src/Assets/Fonts/DancingScript-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +184,10 @@
 				97C26D3F128A4D2E846D276C /* Octicons.ttf */,
 				7E231B0A49FA43A78308F9D6 /* SimpleLineIcons.ttf */,
 				4A260F205B9846B883ACA574 /* Zocial.ttf */,
+				02FCF3B60E004244BC501B4C /* DancingScript-Bold.ttf */,
+				7D59C42477A043CA96B7B4E4 /* DancingScript-Medium.ttf */,
+				F12C816EC788435288C82812 /* DancingScript-Regular.ttf */,
+				78B1827FCC514792B75A7D60 /* DancingScript-SemiBold.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -287,6 +299,10 @@
 				781803F5FDBD4B7C9DCF3060 /* Octicons.ttf in Resources */,
 				1B88317518C14DF0974937A2 /* SimpleLineIcons.ttf in Resources */,
 				3D86D887A7EF47B6B1CEAC46 /* Zocial.ttf in Resources */,
+				D30B2D44B6C8461183D34BCC /* DancingScript-Bold.ttf in Resources */,
+				D6C1794BEAE3435BBF3C0A0A /* DancingScript-Medium.ttf in Resources */,
+				654E29885F334BC6A18F6DCF /* DancingScript-Regular.ttf in Resources */,
+				B257A2A914A74103BF0094DB /* DancingScript-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
