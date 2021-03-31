@@ -9,44 +9,10 @@ export default function Login() {
     <View style={{backgroundColor: '#baf5e5', flex: 1}}>
       <View style={LoginStyle.firstBubble} />
       <View style={LoginStyle.secondBuble} />
-      <Text
-        style={{
-          fontFamily: 'DancingScript-Bold',
-          fontSize: moderateScale(50),
-          marginTop: moderateScale(160),
-          marginLeft: moderateScale(85),
-          color: 'gray',
-        }}>
-        Your
-      </Text>
-      <Text
-        style={{
-          fontFamily: 'DancingScript-Bold',
-          fontSize: moderateScale(50),
-          marginLeft: moderateScale(145),
-          marginTop: moderateScale(-15),
-          color: 'gray',
-        }}>
-        Insight
-      </Text>
-      <View
-        style={{
-          backgroundColor: 'whitesmoke',
-          width: moderateScale(250),
-          borderRadius: moderateScale(20),
-          margin: moderateScale(20),
-          padding: moderateScale(15),
-          alignItems: 'center',
-          alignSelf: 'center',
-          marginTop: moderateScale(30),
-        }}>
-        <View
-          style={{
-            backgroundColor: 'white',
-            width: moderateScale(200),
-            borderRadius: moderateScale(20),
-            padding: moderateScale(15),
-          }}>
+      <Text style={LoginStyle.your}>Your</Text>
+      <Text style={LoginStyle.insight}>Insight</Text>
+      <View style={LoginStyle.outerView}>
+        <View style={LoginStyle.insideView}>
           <TextInput
             placeholder="Your email"
             style={{borderBottomColor: 'gray', borderBottomWidth: 0.7}}
@@ -58,16 +24,7 @@ export default function Login() {
         </View>
         <TouchableOpacity
           style={{position: 'absolute', marginTop: moderateScale(135)}}>
-          <View
-            style={{
-              backgroundColor: '#35f2c0',
-              padding: moderateScale(10),
-              borderRadius: moderateScale(50),
-              // width: moderateScale(20),
-              // height: moderateScale(20),
-              alignItems: 'center',
-              justifyContent: 'center',
-            }}>
+          <View style={LoginStyle.loginButton}>
             <AntDesign
               name="arrowright"
               color="white"
@@ -76,6 +33,29 @@ export default function Login() {
           </View>
         </TouchableOpacity>
       </View>
+      <View
+        style={{
+          flexDirection: 'row',
+          marginTop: moderateScale(30),
+          alignSelf: 'center',
+        }}>
+        <Text style={{color: 'gray'}}>
+          Not joined us yet? Get your daily inspiration{' '}
+        </Text>
+        <TouchableOpacity>
+          <Text
+            style={{
+              fontWeight: 'bold',
+              color: 'gray',
+              textDecorationLine: 'underline',
+            }}>
+            here
+          </Text>
+        </TouchableOpacity>
+      </View>
+      <Text style={{marginTop: moderateScale(135), alignSelf: 'center'}}>
+        {'\u00A9'}Dewangga, 2021.
+      </Text>
     </View>
   );
 }
