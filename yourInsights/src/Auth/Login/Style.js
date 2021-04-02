@@ -52,7 +52,9 @@ export const LoginStyle = StyleSheet.create({
   },
   loginButton: {
     backgroundColor: '#35f2c0',
+    width: moderateScale(35),
     padding: moderateScale(10),
+    alignSelf: 'center',
     borderRadius: moderateScale(50),
     alignItems: 'center',
     justifyContent: 'center',

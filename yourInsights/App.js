@@ -6,9 +6,9 @@ import Home from './src/Screens/Home/Home';
 const App = () => {
   return (
     <>
-      {/* <Home /> */}
+      <Home />
       {/* <Login /> */}
-      <Register />
+      {/* <Register /> */}
     </>
   );
 };

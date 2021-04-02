@@ -11,19 +11,23 @@ export default function Login() {
       <View style={LoginStyle.secondBuble} />
       <Text style={LoginStyle.your}>Your</Text>
       <Text style={LoginStyle.insight}>Insight</Text>
-      <View style={LoginStyle.outerView}>
-        <View style={LoginStyle.insideView}>
-          <TextInput
-            placeholder="Your email"
-            style={{borderBottomColor: 'gray', borderBottomWidth: 0.7}}
-          />
-          <TextInput
-            placeholder="Your password"
-            style={{borderBottomColor: 'gray', borderBottomWidth: 0.7}}
-          />
+      <View>
+        <View style={LoginStyle.outerView}>
+          <View style={LoginStyle.insideView}>
+            <TextInput
+              placeholder="Your email"
+              style={{borderBottomColor: 'gray', borderBottomWidth: 0.7}}
+            />
+            <TextInput
+              placeholder="Your password"
+              style={{borderBottomColor: 'gray', borderBottomWidth: 0.7}}
+            />
+          </View>
         </View>
         <TouchableOpacity
-          style={{position: 'absolute', marginTop: moderateScale(135)}}>
+          style={{
+            marginTop: moderateScale(-35),
+          }}>
           <View style={LoginStyle.loginButton}>
             <AntDesign
               name="arrowright"

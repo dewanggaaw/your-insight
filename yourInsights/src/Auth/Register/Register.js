@@ -18,24 +18,28 @@ export default function Register() {
         }}>
         We are happy to welcome you~
       </Text>
-      <View style={RegisterStyle.outerView}>
-        <View style={RegisterStyle.insideView}>
-          <TextInput
-            placeholder="Your name"
-            style={{borderBottomColor: 'gray', borderBottomWidth: 0.7}}
-          />
-          <TextInput
-            placeholder="Your email"
-            style={{borderBottomColor: 'gray', borderBottomWidth: 0.7}}
-          />
-          <TextInput
-            placeholder="Your password"
-            style={{borderBottomColor: 'gray', borderBottomWidth: 0.7}}
-          />
+      <View style={{paddingBottom: 50}}>
+        <View style={RegisterStyle.outerView}>
+          <View style={RegisterStyle.insideView}>
+            <TextInput
+              placeholder="Your name"
+              style={{borderBottomColor: 'gray', borderBottomWidth: 0.7}}
+            />
+            <TextInput
+              placeholder="Your email"
+              style={{borderBottomColor: 'gray', borderBottomWidth: 0.7}}
+            />
+            <TextInput
+              placeholder="Your password"
+              style={{borderBottomColor: 'gray', borderBottomWidth: 0.7}}
+            />
+          </View>
         </View>
         <TouchableOpacity
-          style={{position: 'absolute', marginTop: moderateScale(185)}}>
-          <View style={RegisterStyle.loginButton}>
+          style={{
+            marginTop: moderateScale(-15),
+          }}>
+          <View style={RegisterStyle.registerButton}>
             <AntDesign
               name="arrowright"
               color="white"

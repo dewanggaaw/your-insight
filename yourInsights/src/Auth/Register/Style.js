@@ -35,9 +35,11 @@ export const RegisterStyle = StyleSheet.create({
     borderRadius: moderateScale(20),
     padding: moderateScale(15),
   },
-  loginButton: {
+  registerButton: {
     backgroundColor: '#35f2c0',
+    width: moderateScale(35),
     padding: moderateScale(10),
+    alignSelf: 'center',
     borderRadius: moderateScale(50),
     alignItems: 'center',
     justifyContent: 'center',
