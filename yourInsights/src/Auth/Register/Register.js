@@ -4,7 +4,7 @@ import AntDesign from 'react-native-vector-icons/AntDesign';
 import {moderateScale} from 'react-native-size-matters';
 import {RegisterStyle} from './Style';
 
-export default function Register() {
+export default function Register(props) {
   return (
     <View style={{backgroundColor: '#baf5e5', flex: 1}}>
       <View style={RegisterStyle.firstBubble} />
@@ -36,6 +36,7 @@ export default function Register() {
           </View>
         </View>
         <TouchableOpacity
+          onPress={() => props.navigation.navigate('Login')}
           style={{
             marginTop: moderateScale(-15),
           }}>

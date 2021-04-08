@@ -4,7 +4,7 @@ import AntDesign from 'react-native-vector-icons/AntDesign';
 import {moderateScale} from 'react-native-size-matters';
 import {LoginStyle} from './Style';
 
-export default function Login() {
+export default function Login(props) {
   return (
     <View style={{backgroundColor: '#baf5e5', flex: 1}}>
       <View style={LoginStyle.firstBubble} />
@@ -25,6 +25,7 @@ export default function Login() {
           </View>
         </View>
         <TouchableOpacity
+          onPress={() => props.navigation.navigate('Home')}
           style={{
             marginTop: moderateScale(-35),
           }}>
@@ -46,7 +47,7 @@ export default function Login() {
         <Text style={{color: 'gray'}}>
           Not joined us yet? Get your daily inspiration{' '}
         </Text>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => props.navigation.navigate('Register')}>
           <Text
             style={{
               fontWeight: 'bold',

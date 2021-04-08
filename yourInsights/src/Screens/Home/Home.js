@@ -1,9 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {View, Text, TouchableOpacity, ImageBackground} from 'react-native';
 import {moderateScale} from 'react-native-size-matters';
 import Feather from 'react-native-vector-icons/Feather';
 import Fontisto from 'react-native-vector-icons/Fontisto';
 import Entypo from 'react-native-vector-icons/Entypo';
+import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import {
   Collapse,
   CollapseHeader,
@@ -12,6 +13,11 @@ import {
 } from 'accordion-collapse-react-native';
 
 export default function Home() {
+  const [pressed, setPressed] = useState(false);
+  const pressHeart = () => {
+    setPressed(!pressed);
+  };
+
   return (
     <View>
       <View
@@ -57,18 +63,19 @@ export default function Home() {
             padding: moderateScale(20),
             borderRadius: moderateScale(10),
           }}>
-          <TouchableOpacity>
-            <Feather
-              name="heart"
+          <TouchableOpacity onPress={() => pressHeart()}>
+            <FontAwesome
+              name={pressed ? 'heart' : 'heart-o'}
               size={moderateScale(20)}
               style={{
                 marginLeft: moderateScale(78),
                 marginBottom: moderateScale(10),
                 marginTop: moderateScale(-10),
               }}
-              color="gray"
+              color={pressed ? 'red' : 'gray'}
             />
           </TouchableOpacity>
+
           <Text style={{alignSelf: 'center'}}>
             An arrow needs a strong bow, good rod, good feathers, and good
             point.
